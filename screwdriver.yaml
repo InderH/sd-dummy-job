@@ -7,3 +7,6 @@ parameters:
 jobs:
     main:
         requires: [~pr, ~commit]
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
