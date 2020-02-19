@@ -6,5 +6,4 @@ parameters:
 
 jobs:
     main:
-        template: sd/noop
         requires: [~pr, ~commit]
