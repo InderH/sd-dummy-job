@@ -6,7 +6,7 @@ parameters:
 
 jobs:
     main:
-        template: sd2/noop
+        template: sd/noop
         requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
