@@ -11,3 +11,107 @@ jobs:
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
+    a:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    b:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    c:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    d:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    e:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    f:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    g:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    h:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    i:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    j:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    k:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    l:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    m:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    n:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    o:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    p:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    q:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    r:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    s:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    t:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    u:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    v:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    w:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    x:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    y:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    z:
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
