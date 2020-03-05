@@ -12,38 +12,47 @@ jobs:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     a:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     b:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     c:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     d:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     e:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     f:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     g:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     h:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     i:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
@@ -52,66 +61,82 @@ jobs:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     k:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     l:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     m:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     n:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     o:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     p:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     q:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     r:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     s:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     t:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     u:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     v:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     w:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     x:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     y:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
     z:
+        requires: [~pr, ~commit]
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
