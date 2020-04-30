@@ -26,6 +26,36 @@ jobs:
         steps:
         - export: export GREETING="Hello, world!"
         - hello: echo $GREETING
+    d:
+        requires: [~pr, ~commit]
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    e:
+        requires: [~pr, ~commit]
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    f:
+        requires: [~pr, ~commit, main]
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    g:
+        requires: [~pr, ~commit]
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    h:
+        requires: [~pr, ~commit]
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
+    i:
+        requires: [~pr, ~commit, main]
+        steps:
+        - export: export GREETING="Hello, world!"
+        - hello: echo $GREETING
     j:
         steps:
         - export: export GREETING="Hello, world!"
